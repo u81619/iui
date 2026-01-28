@@ -1,0 +1,12 @@
+إعدادات ملف param.sfo المقترحة:
+
+Title ID: IV0000-4GAMER001_00-CINAMANAHAIDER01
+Content ID: IV0000-4GAMER001_00-CINAMANAHAIDER01
+Title: Cinamana PS4
+Version: 01.00
+App Version: 01.00
+Provider: Haider Ahmed - 4GAMER Team
+Category: gd (Game/App)
+
+ملاحظة: يتم توليد هذا الملف برمجياً أثناء عملية البناء باستخدام أداة `sfo-generator` الموجودة في OpenOrbis SDK.
+تم ضبط الـ Workflow ليقوم بذلك تلقائياً.

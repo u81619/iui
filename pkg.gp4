@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<psproject version="1.0">
+  <volume>
+    <volume_type>pkg_ps4_app</volume_type>
+    <volume_id>Cinamana_4GAMER</volume_id>
+    <volume_image_file>cinamana_final.pkg</volume_image_file>
+    <package_type>app</package_type>
+    <package_id>IV0000-4GAMER001_00-CINAMANAHAIDER01</package_id>
+  </volume>
+  <fileset>
+    <!-- الملف التنفيذي الرئيسي (يتم إنتاجه بواسطة Makefile) -->
+    <file src="eboot.bin" dst="eboot.bin" />
+    
+    <!-- ملفات النظام والمعلومات (الصور الحقيقية موجودة الآن) -->
+    <file src="sce_sys/param.sfo" dst="sce_sys/param.sfo" />
+    <file src="sce_sys/icon0.png" dst="sce_sys/icon0.png" />
+    <file src="sce_sys/pic0.png" dst="sce_sys/pic0.png" />
+    <file src="sce_sys/pic1.png" dst="sce_sys/pic1.png" />
+    
+    <!-- المكتبات المطلوبة (Stubs) -->
+    <file src="sce_module/libc.prx" dst="sce_module/libc.prx" />
+    <file src="sce_module/libSceFios2.prx" dst="sce_module/libSceFios2.prx" />
+    <file src="sce_module/libSceWebBrowser.prx" dst="sce_module/libSceWebBrowser.prx" />
+    
+    <!-- ملفات إضافية -->
+    <file src="sce_sys/about/right.prx" dst="sce_sys/about/right.prx" />
+  </fileset>
+</psproject>
